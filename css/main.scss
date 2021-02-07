@@ -90,6 +90,8 @@ header {
         margin-right: 20px;
         padding: 5px 12px;
         border-radius: 10px;
+        text-align: center;
+        line-height: inherit;
         
         
     }
@@ -162,6 +164,53 @@ footer h2{
     padding-right: 10px;
 
 }
+/*******MOBILE CSS *******/
+@media screen and (max-width: 600px) {
+    .nav-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 12em;
+        
+    }
+    .nav-container li a {
+        background-color: #000;
+        color:#a4e9eb;
+        border-radius: 12px;
+        text-align: center;
+        margin-top: 2px;
+        
+    }
+    .nav-container li a:hover {
+        text-decoration: underline;
+        background: transparent;
+        color: #000;
+    }
+
+    .main-content h1 {
+        font-size: 50px;
+    }
+    .main-content h3 {
+        font-size: 32px;
+    }
+    .homepagenav button a{
+        width: 82px;
+        text-align: center;
+    }
+    footer {
+        margin-top: 300px;
+    }
+    .footernav {
+        display: inline;
+    }
+    .footernav h2 {
+        text-align: center;
+    }
+
+}
+
 /*******ABOUT ME PAGE *******/
 #about-main {
         text-decoration: none;
