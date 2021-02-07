@@ -168,7 +168,7 @@ footer h2 {
 }
 
 /*******MOBILE CSS *******/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 625px) {
   .nav-container {
     display: -webkit-box;
     display: -ms-flexbox;
