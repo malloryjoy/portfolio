@@ -12,15 +12,17 @@ nav ul {
   /*Removes bullet points in nav*/
   margin: auto;
   overflow: hidden;
-  width: 40%;
+  width: 50%;
   padding: 0;
   /*Lines 12 thru 15 center nav items*/
-  display: -webkit-box;
+  display: block;
   /*places nav items all in one line*/
+  text-align: center;
 }
 
 nav ul li {
   text-decoration: none;
+  display: inline-block;
 }
 
 nav ul a {
@@ -109,11 +111,16 @@ header .headerblock {
 
 .homepagenav {
   width: 60%;
-  margin: 0;
   margin-left: 25%;
   padding: 0;
-  display: -webkit-inline-box;
-  /*Places all items on one line*/
+  margin: auto;
+  display: inline;
+  text-align: center;
+  /*display: -webkit-inline-box; *Places all items on one line*/
+}
+
+.homepagenav button {
+  display: inline-block;
 }
 
 hr {
