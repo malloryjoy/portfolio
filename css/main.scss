@@ -8,25 +8,20 @@ body {
 }
 /*Makes Top Navigation look pretty*/
 nav ul {
-    list-style-type:none;
-    margin: 0;
-    margin-left: 18%;
-    padding: 0;
-
-    ul {
-        display: flex;
-        float: left;
-    }
+    list-style-type:none; /*Removes bullet points in nav*/
+    margin: auto;
+    overflow: hidden;
+    width: 40%;
+    padding: 0; /*Lines 12 thru 15 center nav items*/
+    display: -webkit-box; /*places nav items all in one line*/
+    
 
     li {
         text-decoration: none;
-        list-style-type: none;
     } 
 
     a {
-        display: block;
         padding: 0 1em;
-        float: left;
         font-size: 22px;
         color: #000;
         text-decoration: none;
@@ -41,15 +36,6 @@ nav ul {
         text-align: center;
         border-radius: 12px;
     }
-}
-
-/*Formats Navigation to be Center Aligned*/
-.nav-container {
-    background:transparent;
-    margin-bottom: 13%;
-    margin-left: 13%; 
-
-    
 }
 /*Makes Greeting Block look pretty*/
 header {
@@ -86,7 +72,6 @@ header {
         font-size: 34px;
         text-decoration: none;
         text-transform: uppercase;
-        float: left;
         margin-right: 20px;
         padding: 5px 12px;
         border-radius: 10px;
@@ -121,10 +106,11 @@ header {
     margin-bottom: 2px;
 }
 .homepagenav {
-    width: 50%;
-    margin: auto;
-    height: 60%;
-    margin-left: 35%;
+    width: 60%;
+    margin: 0;
+    margin-left: 25%;
+    padding: 0;
+    display: -webkit-inline-box; /*Places all items on one line*/
 
 }
 hr {
@@ -137,7 +123,7 @@ footer h2{
 }
 .footernav {
     padding: 2em;
-    margin-left: 20%;
+    
     
 }
 .ul-footer li a:hover{
@@ -146,19 +132,18 @@ footer h2{
     color: #000;
 
 }
-.ul-footer ul{
-    float: left;
-    position:absolute;
-    width:100%;
-    margin-left:50%;
+.ul-footer {
+    margin: auto;
+     padding: 0;
+     overflow: hidden;
+     width: 25%;
+    
 }
-.ul-footer li{
-    display:inline-block;
-    margin-left:10px;
-}
+
 .ul-footer li a {
     list-style-type:none;
     margin: 0;
+    margin-left:10px;
     padding: 0;
     display: inline;
     padding-right: 10px;
