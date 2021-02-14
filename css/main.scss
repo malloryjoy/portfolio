@@ -65,10 +65,11 @@ header {
     
 }
 /*Makes the Call/Email/Personal Blog Buttons look pretty*/
-.button {
-
+.homepagenav{
     
-    a {
+    
+
+    a, .button{
         background-color: #000;
         color: #a4e9eb;
         font-size: 34px;
@@ -108,17 +109,13 @@ header {
     margin-bottom: 2px;
 }
 .homepagenav {
-    width: 60%;
-    margin-left: 25%;
-    padding: 0;
+    /*display: -webkit-inline-box; Places all items on one line*/
+    list-style-type: none;
     margin: auto;
-    display: inline;
+    width: 50%;
+    padding: 0;
+    display: block;
     text-align: center;
-    /*display: -webkit-inline-box; *Places all items on one line*/
-
-button {
-    display: inline-block;
-}
 
 }
 hr {
@@ -150,11 +147,11 @@ footer h2{
 
 .ul-footer li a {
     list-style-type:none;
-    margin: 0;
-    margin-left:10px;
     padding: 0;
     display: inline;
-    padding-right: 10px;
+    margin: auto;
+    text-align: center;
+
 
 }
 /*******MOBILE CSS *******/
