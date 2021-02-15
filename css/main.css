@@ -153,6 +153,21 @@ footer h2 {
 }
 
 /*******MOBILE CSS *******/
+@media screen and (max-width: 320px) {
+  .nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .nav-container li a {
+    text-align: center;
+    margin-top: 2px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .nav-container {
     display: -webkit-box;
