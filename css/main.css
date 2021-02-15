@@ -234,6 +234,36 @@ footer h2 {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  nav ul {
+    width: 80%;
+  }
+  .main-content {
+    width: 100%;
+  }
+  footer {
+    margin-top: 13px;
+  }
+  .ul-footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  nav ul {
+    width: 80%;
+  }
+  .main-content {
+    width: 100%;
+  }
+  footer {
+    margin-top: 13px;
+  }
+  .ul-footer {
+    width: 100%;
+  }
+}
+
 /*******ABOUT ME PAGE *******/
 #about-main {
   text-decoration: none;
