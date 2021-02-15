@@ -58,39 +58,10 @@ header {
         margin: 0 13%;
         text-align: center;
         
-    }
-
-    
-
-    
+    }       
 }
 /*Makes the Call/Email/Personal Blog Buttons look pretty*/
-.homepagenav{
-    
-    
-
-    a, .button{
-        background-color: #000;
-        color: #a4e9eb;
-        font-size: 34px;
-        text-decoration: none;
-        text-transform: uppercase;
-        margin-right: 20px;
-        padding: 5px 12px;
-        border-radius: 10px;
-        text-align: center;
-        line-height: inherit;
-        
-        
-    }
-    a:hover {
-        background-color: #a4e9eb;
-        color: #000;
-        text-decoration: underline;
-    }
-
-}
-.main-content {
+.main-content{
     height: 70vh;
     h1{
         font-size: 82px;
@@ -103,13 +74,6 @@ header {
     h3 {
         margin-top: 4px;
     }
-
-}
-.myname {
-    margin-bottom: 2px;
-}
-.homepagenav {
-    /*display: -webkit-inline-box; Places all items on one line*/
     list-style-type: none;
     margin: auto;
     width: 50%;
@@ -117,6 +81,31 @@ header {
     display: block;
     text-align: center;
 
+
+
+    a, .button{
+        background-color: #000;
+        color: #a4e9eb;
+        font-size: 34px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 20px;
+        padding: 5px 12px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: inherit;
+        align-items: baseline;
+        
+    }
+    a:hover {
+        background-color: #a4e9eb;
+        color: #000;
+        text-decoration: underline;
+    }
+
+}
+.myname {
+    margin-bottom: 2px;
 }
 hr {
     height: 4px;
@@ -155,20 +144,14 @@ footer h2{
 
 }
 /*******MOBILE CSS *******/
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 600px) {
     .nav-container{
         display: flex;
         flex-wrap: wrap;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 12em;
+        width: 100%;
         
     }
     .nav-container li a {
-        background-color: #000;
-        color:#a4e9eb;
-        border-radius: 12px;
         text-align: center;
         margin-top: 2px;
         
@@ -179,27 +162,75 @@ footer h2{
         color: #000;
     }
 
+    nav{
+        width: 100%;
+    }
+
+    nav ul{
+        width: 100% !important;
+        display:flex;
+    }
+
     .main-content h1 {
         font-size: 50px;
     }
     .main-content h3 {
         font-size: 32px;
     }
-    .homepagenav button a{
+    .main-content button a{
         width: 82px;
         text-align: center;
     }
     footer {
-        margin-top: 300px;
+        margin-top: 13px;
     }
-    .footernav {
+    .footernav ul{
         display: inline;
+        justify-content: center;
     }
     .footernav h2 {
         text-align: center;
     }
+    .main-content a, .main-content .button {
+        background-color: #000;
+        color: #a4e9eb;
+        font-size: 34px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: auto;
+        padding: 5px 12px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: inherit;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+    }
+
+
 
 }
+
+@media screen and (max-width: 875px){
+    
+    nav ul{
+        width: 80%;
+    }
+    
+    .main-content {
+        width: 100%;
+    }
+    footer{
+        margin-top: 26px;
+    }
+    .ul-footer {
+        width: 75%;
+    }   
+}
+
+
+
+
 
 /*******ABOUT ME PAGE *******/
 #about-main {
