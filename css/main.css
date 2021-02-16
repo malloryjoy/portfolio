@@ -72,7 +72,7 @@ header .headerblock {
   height: 70vh;
   list-style-type: none;
   margin: auto;
-  width: 50%;
+  width: 51%;
   padding: 0;
   display: block;
   text-align: center;
@@ -153,22 +153,26 @@ footer h2 {
 }
 
 /*******MOBILE CSS *******/
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
   .nav-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: inline;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
   }
   .nav-container li a {
-    text-align: center;
+    text-align: left;
     margin-top: 2px;
+  }
+  .main-content a, .main-content .button {
+    line-height: 2;
+  }
+  footer {
+    margin-top: 32px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 874px) {
   .nav-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -194,6 +198,9 @@ footer h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .main-content {
+    width: 100%;
   }
   .main-content h1 {
     font-size: 50px;
@@ -234,7 +241,7 @@ footer h2 {
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (min-width: 875px) and (max-width: 991px) {
   nav ul {
     width: 80%;
   }
@@ -245,37 +252,42 @@ footer h2 {
     margin-top: 26px;
   }
   .ul-footer {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  nav ul {
-    width: 80%;
-  }
-  .main-content {
-    width: 100%;
-  }
-  footer {
-    margin-top: 13px;
-  }
-  .ul-footer {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 992px) {
-  nav ul {
-    width: 80%;
+/*@media only screen and (min-width: 876px) and (max-width:991){
+    nav ul{
+        width: 80%;
+
+    }
+    .main-content {
+        width: 100%;
+    
+    }
+    footer {
+        margin-top: 13px;
+    }
+
+    .ul-footer {
+        width: 100%;
+    }
+}*/
+@media only screen and (min-width: 992px) and (max-width: 1224px) {
+  footer {
+    margin-top: 10%;
+  }
+  .ul-footer {
+    width: 100%;
   }
   .main-content {
     width: 100%;
   }
-  footer {
-    margin-top: 13px;
-  }
-  .ul-footer {
-    width: 100%;
+}
+
+@media only screen and (min-width: 1224px) and (max-width: 1274px) {
+  .main-content {
+    width: 54%;
   }
 }
 
