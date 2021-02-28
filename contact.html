@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Portfolio of Mallory Joy</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+</head>
+<body> 
+    <header>
+        <a href="index.html" class="headerblock">Hello, there!</a>
+    </header>
+    <div class="nav-container">
+        <nav role="main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Get in Touch </a></li>
+            </ul>
+        </nav>
+    </div>
+    <section id="getintouch">
+        <form id="contact-form" method="post" action="contact.html" role="form">
+                <label for="form_name">First Name *</label>
+                    <input id="form_name" type="text" name="name" placeholder="Please enter your firstname *" required
+                                data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                <label for="form_lastname">Last name *</label>
+                            <input id="form_lastname" type="text" name="surname" placeholder="Please enter your lastname *" required
+                                data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" placeholder="Please enter your email *" required
+                                data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+ 
+                <label for="form_phone">Phone</label>
+                        <input id="form_phone" type="tel" name="phone" placeholder="Please enter your phone">
+                            <div class="help-block with-errors"></div>
+
+                <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" placeholder="Message for me *" rows="4" columns="42" required
+                        data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                
+
+
+                <input type="submit" class="submit-btn" value="Submit">
+
+                <p>
+                    <strong>*</strong> These fields are required. 
+                </p>
+
+            
+
+        </form>
+
+
+    </section>
+</body>

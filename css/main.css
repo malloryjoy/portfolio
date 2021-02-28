@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
   background-color: #a4e9eb;
+  cursor: pointer !important;
 }
 
 /*Makes Top Navigation look pretty*/
@@ -299,5 +300,134 @@ footer h2 {
   text-align: left;
   margin-right: 25%;
   margin-left: 25%;
+}
+
+/******END ABOUT ME CSS *****/
+/******PORTFOLIO PAGE CSS ******/
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  -ms-grid-rows: 180px 180px;
+      grid-template-rows: 180px 180px;
+  grid-row-gap: 45px;
+  grid-column-gap: 45px;
+}
+
+#projects h1 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#projects {
+  margin-left: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-tile {
+  background-color: #000;
+  color: #a4e9eb;
+  border-radius: 12px;
+  padding-left: 12px;
+  font-family: 'Didot' serif;
+}
+
+.project-tile h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.button {
+  background-color: #a4e9eb;
+  font-family: 'Didot', serif;
+  color: #000;
+  border: 12px solid #a4e9eb;
+  border-radius: 12px;
+}
+
+a:hover {
+  background-color: #000;
+  text-decoration: underline !important;
+  color: #a4e9eb;
+  border-radius: 12px;
+  border: 2px solid #000;
+}
+
+.btn {
+  background-color: #a4e9eb;
+  color: #000;
+  border-radius: 12px;
+  border: 3px solid #a4e9eb;
+}
+
+.btn-right {
+  background-color: #a4e9eb;
+  color: #000;
+  border-radius: 12px;
+  border: 3px solid #a4e9eb;
+  margin-left: 4px;
+}
+
+.btn a:hover {
+  text-decoration: underline !important;
+}
+
+#project-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#project-links a {
+  text-decoration: none;
+}
+
+/******END PORTFOLIO CSS ******/
+/******CONTACT PAGE CSS ******/
+#getintouch {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 3px solid #000;
+}
+
+#contact-form {
+  padding: 20px 10px;
+}
+
+input, textarea, label {
+  width: 300px;
+  font-family: 'Didot', serif;
+  display: block;
+}
+
+.submit-btn {
+  background-color: #000;
+  color: #a4e9eb;
+  margin-top: 12px;
+  width: 65px;
+}
+
+.submit-btn:hover {
+  background-color: #a4e9eb;
+  color: #000;
+  margin-top: 12px;
+  width: 65px;
 }
 /*# sourceMappingURL=main.css.map */
