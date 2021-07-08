@@ -23,15 +23,15 @@ nav ul {
         display: inline-block;
     } 
 
-    a {
+    /*a {
         padding: 0 1em;
         font-size: 22px;
         color: #000;
         text-decoration: none;
         display: inline;
-        margin-left: 20px;
+        margin-left: 20px; 
 
-    }
+    }*/
     a:hover{
         color: #a4e9eb;
         background: #000;
@@ -42,9 +42,9 @@ nav ul {
 }
 /*Makes Greeting Block look pretty*/
 header {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
-    padding: 2em;
+    padding: 2em; 
 
     .headerblock {
         background-color: #000;
@@ -56,14 +56,15 @@ header {
         padding: 5px 5px;
         width: 100%;
         height: 30%;
-        margin: 0 13%;
+        /*margin: 0 13%;*/
         text-align: center;
         
     }       
 }
-/*Makes the Call/Email/Personal Blog Buttons look pretty*/
+
 .main-content{
-    height: 70vh;
+    height: 800px;
+    padding-top: 32px;
     h1{
         font-size: 82px;
         text-align: center;
@@ -84,8 +85,7 @@ header {
 
 
 
-    a, .button{
-        background-color: #000;
+    a{
         color: #a4e9eb;
         font-size: 34px;
         text-decoration: none;
@@ -144,156 +144,6 @@ footer h2{
 
 
 }
-/*******MOBILE CSS *******/
-@media screen and (min-width:320px) and (max-width:599px){
-    .nav-container{
-        display: inline;
-        flex-wrap: wrap;
-        width: 100%;
-        
-    }
-    .nav-container li a {
-        text-align: left;
-        margin-top: 2px;
-        
-    }
-    .main-content a, .main-content .button {
-        line-height: 2;
-    }
-
-    footer {
-        margin-top: 32px;
-    }
-}
-@media screen and (min-width: 600px) and (max-width: 874px) {
-    .nav-container{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        
-    }
-    .nav-container li a {
-        text-align: center;
-        margin-top: 2px;
-        
-    }
-    .nav-container li a:hover {
-        text-decoration: underline;
-        background: transparent;
-        color: #000;
-    }
-
-    nav{
-        width: 100%;
-    }
-
-    nav ul{
-        width: 100% !important;
-        display:flex;
-    }
-
-    .main-content{
-        width: 100%;
-    }
-
-    .main-content h1 {
-        font-size: 50px;
-    }
-    .main-content h3 {
-        font-size: 32px;
-    }
-    .main-content button a{
-        width: 82px;
-        text-align: center;
-    }
-    footer {
-        margin-top: 13px;
-    }
-    .footernav ul{
-        display: inline;
-        justify-content: center;
-    }
-    .footernav h2 {
-        text-align: center;
-    }
-    .main-content a, .main-content .button {
-        background-color: #000;
-        color: #a4e9eb;
-        font-size: 34px;
-        text-decoration: none;
-        text-transform: uppercase;
-        margin: auto;
-        padding: 5px 12px;
-        border-radius: 10px;
-        text-align: center;
-        line-height: inherit;
-        -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-        align-items: baseline;
-    }
-
-
-
-}
-
-@media screen and (min-width: 875px) and (max-width: 991px){
-    
-    nav ul{
-        width: 80%;
-    }
-    
-    .main-content {
-        width: 100%;
-    }
-    footer{
-        margin-top: 26px;
-    }
-    .ul-footer {
-        width: 100%;
-    }   
-}
-
-/*@media only screen and (min-width: 876px) and (max-width:991){
-    nav ul{
-        width: 80%;
-
-    }
-    .main-content {
-        width: 100%;
-    
-    }
-    footer {
-        margin-top: 13px;
-    }
-
-    .ul-footer {
-        width: 100%;
-    }
-}*/
-
-@media only screen and (min-width: 992px) and (max-width:1224px){
-    footer {
-        margin-top: 10%;
-    }
-
-    .ul-footer {
-        width: 100%;
-    }
-
-    .main-content {
-        width: 100%;
-    }
-} 
-
-@media only screen and (min-width: 1224px) and (max-width: 1274px){
-    .main-content {
-        width: 54%;
-    }
-}
-
-
-
-
 /*******ABOUT ME PAGE *******/
 #about-main {
         text-decoration: none;
@@ -393,7 +243,8 @@ footer h2{
   /******CONTACT PAGE CSS ******/
 
  #getintouch {
-     margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
      display: flex;
      justify-content: center;
      border: 3px solid #000;
@@ -401,6 +252,7 @@ footer h2{
 
  #contact-form {
      padding: 20px 10px;
+     
  }
  input, textarea, label {
      width: 300px;
@@ -412,10 +264,34 @@ footer h2{
      color: #a4e9eb;
      margin-top: 12px;
     width: 65px;
+    cursor: pointer;
  }
  .submit-btn:hover {
     background-color: #a4e9eb;
     color: #000;
     margin-top: 12px;
    width: 65px;
+   cursor: pointer;
 }
+
+/*******MOBILE CSS *******/
+@media screen and (min-width:320px) and (max-width:411px){
+.nav-container, .main-content {
+    justify-content: center;
+}
+.main-content h1 {
+    font-size: 36px;
+
+}
+.main-content h3 {
+    font-size: 18px;
+}
+.main-content a, .main-content .button {
+    display: flex;
+    font-size: 16px;
+    margin: 12px;
+
+}
+
+}
+

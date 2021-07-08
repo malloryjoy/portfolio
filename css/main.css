@@ -3,44 +3,55 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
-  background-color: #a4e9eb;
+  background-color: #ff48a5;
   cursor: pointer !important;
 }
 
-/*Makes Top Navigation look pretty*/
-nav ul {
-  list-style-type: none;
-  /*Removes bullet points in nav*/
-  margin: auto;
-  overflow: hidden;
-  width: 50%;
-  padding: 0;
-  /*Lines 12 thru 15 center nav items*/
-  display: block;
-  /*places nav items all in one line*/
-  text-align: center;
+#wrapme {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-nav ul li {
-  text-decoration: none;
+/*Makes Top Navigation look pretty*/
+
+nav {
+  width: 300px;
+  background-color: #fff;
+  height: 420px;
+  margin-left: 20%;
   display: inline-block;
+  border-radius: 10px;
 }
+
+nav ul {
+  
+  text-align: left;
+  width: 300px;
+  overflow: hidden;
+  margin-top: 10%;
+  padding: 0;
+  /*margin-left: 21%; */
+  list-style-type: none;
+}
+nav ul li {
+  border-bottom: 1px solid #c686f6;
+}
+
 
 nav ul a {
-  padding: 0 1em;
+  padding: 20px;
   font-size: 22px;
   color: #000;
   text-decoration: none;
-  display: inline;
-  margin-left: 20px;
+  display: flex;
+  /*margin-left: 20px; */
 }
 
 nav ul a:hover {
-  color: #a4e9eb;
-  background: #000;
+  color: #fff;
+  background: #ff77bc;
   text-decoration: none;
-  text-align: center;
-  border-radius: 12px;
 }
 
 /*Makes Greeting Block look pretty*/
@@ -55,37 +66,38 @@ header {
 }
 
 header .headerblock {
-  background-color: #000;
-  color: #a4e9eb;
+  background-image: url('https://images.pexels.com/photos/4451505/pexels-photo-4451505.jpeg');
+  color: transparent;
   font-weight: bold;
   font-size: 64px;
   text-transform: uppercase;
   text-decoration: none;
   padding: 5px 5px;
-  width: 100%;
   height: 30%;
-  margin: 0 13%;
+  margin: 0 auto;
   text-align: center;
 }
 
 /*Makes the Call/Email/Personal Blog Buttons look pretty*/
 .main-content {
-  height: 70vh;
-  list-style-type: none;
-  margin: auto;
-  width: 51%;
-  padding: 0;
-  display: block;
+  background-color: #fff;
+  height: 800px;
+  margin-left: 2%;
+  width: 37%;
+  padding-top: 62px;
+  display: inline-block;
   text-align: center;
+  border-radius: 10px;
 }
 
 .main-content h1 {
-  font-size: 82px;
+  font-size: 64px;
   text-align: center;
+  color: #c686f6;
 }
 
 .main-content h3, .main-content button {
-  font-size: 64px;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -94,8 +106,7 @@ header .headerblock {
 }
 
 .main-content a, .main-content .button {
-  background-color: #000;
-  color: #a4e9eb;
+  color: #ff77bc;
   font-size: 34px;
   text-decoration: none;
   text-transform: uppercase;
@@ -110,8 +121,6 @@ header .headerblock {
 }
 
 .main-content a:hover {
-  background-color: #a4e9eb;
-  color: #000;
   text-decoration: underline;
 }
 
@@ -151,145 +160,6 @@ footer h2 {
   display: inline;
   margin: auto;
   text-align: center;
-}
-
-/*******MOBILE CSS *******/
-@media screen and (min-width: 320px) and (max-width: 599px) {
-  .nav-container {
-    display: inline;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 100%;
-  }
-  .nav-container li a {
-    text-align: left;
-    margin-top: 2px;
-  }
-  .main-content a, .main-content .button {
-    line-height: 2;
-  }
-  footer {
-    margin-top: 32px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 874px) {
-  .nav-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 100%;
-  }
-  .nav-container li a {
-    text-align: center;
-    margin-top: 2px;
-  }
-  .nav-container li a:hover {
-    text-decoration: underline;
-    background: transparent;
-    color: #000;
-  }
-  nav {
-    width: 100%;
-  }
-  nav ul {
-    width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .main-content {
-    width: 100%;
-  }
-  .main-content h1 {
-    font-size: 50px;
-  }
-  .main-content h3 {
-    font-size: 32px;
-  }
-  .main-content button a {
-    width: 82px;
-    text-align: center;
-  }
-  footer {
-    margin-top: 13px;
-  }
-  .footernav ul {
-    display: inline;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .footernav h2 {
-    text-align: center;
-  }
-  .main-content a, .main-content .button {
-    background-color: #000;
-    color: #a4e9eb;
-    font-size: 34px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: auto;
-    padding: 5px 12px;
-    border-radius: 10px;
-    text-align: center;
-    line-height: inherit;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
-  }
-}
-
-@media screen and (min-width: 875px) and (max-width: 991px) {
-  nav ul {
-    width: 80%;
-  }
-  .main-content {
-    width: 100%;
-  }
-  footer {
-    margin-top: 26px;
-  }
-  .ul-footer {
-    width: 100%;
-  }
-}
-
-/*@media only screen and (min-width: 876px) and (max-width:991){
-    nav ul{
-        width: 80%;
-
-    }
-    .main-content {
-        width: 100%;
-    
-    }
-    footer {
-        margin-top: 13px;
-    }
-
-    .ul-footer {
-        width: 100%;
-    }
-}*/
-@media only screen and (min-width: 992px) and (max-width: 1224px) {
-  footer {
-    margin-top: 10%;
-  }
-  .ul-footer {
-    width: 100%;
-  }
-  .main-content {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1224px) and (max-width: 1274px) {
-  .main-content {
-    width: 54%;
-  }
 }
 
 /*******ABOUT ME PAGE *******/
@@ -350,13 +220,13 @@ footer h2 {
   border-radius: 12px;
 }
 
-a:hover {
+/*a:hover {
   background-color: #000;
   text-decoration: underline !important;
   color: #a4e9eb;
   border-radius: 12px;
-  border: 2px solid #000;
-}
+  border: 2px solid #000; 
+}*/
 
 .btn {
   background-color: #a4e9eb;
@@ -397,7 +267,8 @@ a:hover {
 /******END PORTFOLIO CSS ******/
 /******CONTACT PAGE CSS ******/
 #getintouch {
-  margin: 0;
+  margin-left: 25%;
+  margin-right: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,6 +293,7 @@ input, textarea, label {
   color: #a4e9eb;
   margin-top: 12px;
   width: 65px;
+  cursor: pointer;
 }
 
 .submit-btn:hover {
@@ -429,5 +301,28 @@ input, textarea, label {
   color: #000;
   margin-top: 12px;
   width: 65px;
+  cursor: pointer;
+}
+
+/*******MOBILE CSS *******/
+@media screen and (min-width: 320px) and (max-width: 411px) {
+  .nav-container, .main-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-content h1 {
+    font-size: 36px;
+  }
+  .main-content h3 {
+    font-size: 18px;
+  }
+  .main-content a, .main-content .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    margin: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
