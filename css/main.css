@@ -7,7 +7,7 @@ body {
   cursor: pointer !important;
 }
 
-#wrapme {
+#wraplife {
   display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,7 +42,7 @@ nav ul li {
 nav ul a {
   padding: 20px;
   font-size: 22px;
-  color: #000;
+  color: #c787f5;
   text-decoration: none;
   display: flex;
   /*margin-left: 20px; */
@@ -56,27 +56,23 @@ nav ul a:hover {
 
 /*Makes Greeting Block look pretty*/
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 2em;
-}
-
-header .headerblock {
-  background-image: url('https://images.pexels.com/photos/4451505/pexels-photo-4451505.jpeg');
-  color: transparent;
+  background-image: url('https://maljoylove.com/wp-content/uploads/2021/07/Mallory_Joy_Elle_Header.png');
+  
+background-color: #c787f5;
+  border: 12px solid #c787f5;
   font-weight: bold;
   font-size: 64px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 5px 5px;
-  height: 30%;
-  margin: 0 auto;
+  height: 105px;
+  width: 984px;
+  margin: 0 15%;
+  margin-bottom: 40px;
   text-align: center;
 }
+
+  
 
 /*Makes the Call/Email/Personal Blog Buttons look pretty*/
 .main-content {
@@ -129,8 +125,8 @@ header .headerblock {
 }
 
 hr {
-  height: 4px;
-  background-color: #000;
+  height: 2px;
+  background-color: #fff;
 }
 
 footer h2 {
