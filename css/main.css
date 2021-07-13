@@ -3,8 +3,11 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
-  background-color: #ff48a5;
-  cursor: pointer !important;
+  background-color: #fea5ce;
+  cursor: url('https://maljoylove.com/wp-content/uploads/2021/07/Black-Pixel-Mouse-Cursor-Arow-Fixed-e1625872880376.png'), default;
+}
+a, a:hover {
+  cursor: url('https://maljoylove.com/wp-content/uploads/2021/07/Black-Pixel-Mouse-Cursor-Arow-Fixed-e1625872880376.png'), default;
 }
 
 #wraplife {
@@ -85,6 +88,10 @@ header {
   border-radius: 10px;
 }
 
+.main-content.portfolio{
+  padding-top:0;
+}
+
 .main-content h1 {
   font-size: 64px;
   text-align: center;
@@ -94,6 +101,7 @@ header {
 .main-content h3, .main-content button {
   font-size: 32px;
   text-align: center;
+  color: #ff77bc;
 }
 
 .main-content h3 {
@@ -120,7 +128,7 @@ header {
 }
 
 .myname {
-  margin-bottom: 2px;
+  margin-top: 50%;
 }
 
 hr {
@@ -156,6 +164,17 @@ footer h2 {
   margin: auto;
   text-align: center;
 }
+
+.ux-port {
+  height:20%;
+  border-bottom: 1px solid #c787f5;
+}
+
+.ux-port:last-child {
+  border-bottom: none;
+}
+
+
 
 /*******ABOUT ME PAGE *******/
 #about-main {
@@ -300,8 +319,31 @@ input, textarea, label {
 }
 
 /*******MOBILE CSS *******/
-@media screen and (min-width: 320px) and (max-width: 411px) {
-  .nav-container, .main-content {
+@media screen and (max-width: 450px) {
+ 
+  header {
+    width: 100%;
+  }
+
+  nav {
+    display:none;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+  .main-content a{
+    font-size: 32px;
+    margin: 0 auto;
+  }
+
+  
+
+
+ 
+ 
+ 
+  /*.nav-container, .main-content {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -318,6 +360,6 @@ input, textarea, label {
     display: flex;
     font-size: 16px;
     margin: 12px;
-  }
+  } */
 }
 /*# sourceMappingURL=main.css.map */
