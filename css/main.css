@@ -1,8 +1,9 @@
+/*Vogue Font @import url("https://use.typekit.net/wpu2spg.css"); */
 @import url("https://use.typekit.net/wpu2spg.css");
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
+  font-family: 'ff-prater-block-web', sans-serif;
   background-color: #fea5ce;
   cursor: url('https://maljoylove.com/wp-content/uploads/2021/07/Black-Pixel-Mouse-Cursor-Arow-Fixed-e1625872880376.png'), default;
 }
@@ -74,6 +75,9 @@ header {
   text-align: center;
 }
 
+.socials a{
+  font-size: 22px !important;
+}
   
 
 /*Makes the Call/Email/Personal Blog Buttons look pretty*/
@@ -88,9 +92,12 @@ header {
   border-radius: 10px;
 }
 
-.main-content.portfolio{
+.main-content.portfolio, .main-content.codeport{
   padding-top:0;
+  background-color: #7cd2e3;
 }
+
+
 
 .main-content h1 {
   font-size: 64px;
@@ -167,12 +174,28 @@ footer h2 {
 
 .ux-port {
   height:20%;
+}
+.ux-port, .code-port {
   border-bottom: 1px solid #c787f5;
+  display: grid;
+  place-content: center;
 }
 
+.code-port {
+  height: 33%;
+}
+
+.code-port a {
+  color: #fff;
+}
+
+.ux-port a {
+  color: #fff;
+}
 .ux-port:last-child {
   border-bottom: none;
 }
+
 
 
 
