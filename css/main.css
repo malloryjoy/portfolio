@@ -354,6 +354,22 @@ input, textarea, label {
 
 /*******MOBILE CSS *******/
 @media screen and (max-width: 678px) {
+  header {
+    display: flex;
+    background-image: url('https://maljoylove.com/wp-content/uploads/2021/07/Mallory_Joy_Elle_Header_Mobile.png');
+    background-color: #c787f5;
+    border: 12px solid #c787f5;
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 33px;
+    width: 300px;
+    margin: 0;
+    margin-left: 6.75%;
+    margin-bottom: 20px;
+    text-align: center;
+    } 
 
   #wraplife {
     display: flex;
@@ -389,7 +405,7 @@ input, textarea, label {
   
   nav ul a {
     padding: 8px; 
-    font-size: 17px;
+    font-size: 13px;
     color: #c787f5;
     text-decoration: none;
     display: flex;
@@ -401,21 +417,7 @@ input, textarea, label {
     text-decoration: none;
   }
  
-  header {
-  display: flex;
-  background-image: url('https://maljoylove.com/wp-content/uploads/2021/07/Mallory_Joy_Elle_Header_Mobile.png');
-  background-color: #c787f5;
-  border: 12px solid #c787f5;
-  font-weight: bold;
-  font-size: 64px;
-  text-transform: uppercase;
-  text-decoration: none;
-  height: 33px;
-  width: 300px;
-  margin: 0 15%;
-  margin-bottom: 40px;
-  text-align: center;
-  } 
+  
 
   .main-content {
     margin: 0;
