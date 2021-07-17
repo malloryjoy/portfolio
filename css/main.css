@@ -17,7 +17,11 @@ a, a:hover {
     align-items: center;
 }
 
-/*Makes Top Navigation look pretty*/
+
+
+
+/*Makes Navigation look pretty*/
+
 
 nav {
   width: 300px;
@@ -75,12 +79,13 @@ header {
   text-align: center;
 }
 
+
 .socials a{
-  font-size: 22px !important;
+  font-size: 22px;
 }
   
 
-/*Makes the Call/Email/Personal Blog Buttons look pretty*/
+/*Makes the Main Content look pretty*/
 .main-content {
   background-color: #fff;
   height: 800px;
@@ -120,7 +125,7 @@ header {
   font-size: 34px;
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 20px;
+  margin-right: 0 auto;
   padding: 5px 12px;
   border-radius: 10px;
   text-align: center;
@@ -145,6 +150,7 @@ hr {
 
 footer h2 {
   font-size: 22px;
+  color: #fff;
 }
 
 .footernav {
@@ -154,7 +160,7 @@ footer h2 {
 .ul-footer li a:hover {
   text-decoration: underline !important;
   background-color: transparent !important;
-  color: #000;
+  color: #fff;
 }
 
 .ul-footer {
@@ -192,26 +198,20 @@ footer h2 {
 .ux-port a {
   color: #fff;
 }
+
+.ux-port a:hover, .code-port a:hover {
+  color: #7cd2e3;
+  background-color: #fff;
+  text-decoration: none;
+}
+
 .ux-port:last-child {
   border-bottom: none;
 }
 
 
-
-
-/*******ABOUT ME PAGE *******/
-#about-main {
-  text-decoration: none;
-  padding: 5px 25px;
-  width: 50%;
-  text-align: left;
-  margin-right: 25%;
-  margin-left: 25%;
-}
-
-/******END ABOUT ME CSS *****/
 /******PORTFOLIO PAGE CSS ******/
-.container {
+/*.container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 30% 30%;
@@ -265,7 +265,7 @@ footer h2 {
   border: 2px solid #000; 
 }*/
 
-.btn {
+/*.btn {
   background-color: #a4e9eb;
   color: #000;
   border-radius: 12px;
@@ -303,19 +303,9 @@ footer h2 {
 
 /******END PORTFOLIO CSS ******/
 /******CONTACT PAGE CSS ******/
-#getintouch {
-  margin-left: 25%;
-  margin-right: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: 3px solid #000;
-}
 
-#contact-form {
+
+/*#contact-form {
   padding: 20px 10px;
 }
 
@@ -323,7 +313,7 @@ input, textarea, label {
   width: 300px;
   font-family: 'Didot', serif;
   display: block;
-}
+}*/
 
 .submit-btn {
   background-color: #000;
@@ -341,26 +331,128 @@ input, textarea, label {
   cursor: pointer;
 }
 
-/*******MOBILE CSS *******/
-@media screen and (max-width: 450px) {
+/*******TABLET CSS *******/
+@media screen and (max-width: 1023px) {
  
   header {
-    width: 100%;
+  
   }
 
-  nav {
+  /*nav {
     display:none;
-  }
+  }*/
 
   .main-content {
     width: 100%;
   }
-  .main-content a{
-    font-size: 32px;
+  /*.main-content a{
+    font-size: 22px;
     margin: 0 auto;
+  } */
+
+}
+
+/*******MOBILE CSS *******/
+@media screen and (max-width: 678px) {
+
+  #wraplife {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+  
+  nav ul {
+    
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    /*margin-left: 21%; */
+    list-style-type: none;
+  }
+  nav ul li {
+    float: left;
+    border-bottom: none;
+    
+  }
+  
+  
+  nav ul a {
+    padding: 8px; 
+    font-size: 17px;
+    color: #c787f5;
+    text-decoration: none;
+    display: flex;
+    margin-left: 12px; 
+  }
+  
+  nav ul a:hover {
+    color: #a4e9eb;
+    text-decoration: none;
+  }
+ 
+  header {
+  display: flex;
+  background-image: url('https://maljoylove.com/wp-content/uploads/2021/07/Mallory_Joy_Elle_Header_Mobile.png');
+  background-color: #c787f5;
+  border: 12px solid #c787f5;
+  font-weight: bold;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 33px;
+  width: 300px;
+  margin: 0 15%;
+  margin-bottom: 40px;
+  text-align: center;
+  } 
+
+  .main-content {
+    margin: 0;
+    padding-top: 2px;
+    width: 365px;
+    height: 380px;
+  }
+
+  .main-content a, .main-content .button {
+    font-size: 30px;
+  }  
+
+  .main-content h1 {
+    font-size: 48px;
+  }
+
+  .main-content h3 {
+    margin-bottom: 2px;
+  }
+
+  .myname{
+    margin-top: 25%;
+  }
+
+  .socials {
+    padding-top: 8%;
+  }
+
+  .socials a{
+    font-size: 16px;
   }
 
   
+
+}
+
+
 
 
  
