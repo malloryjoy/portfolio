@@ -4,11 +4,16 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'ff-prater-block-web', sans-serif;
-  background-color: #fea5ce;
-  cursor: url('https://maljoylove.com/wp-content/uploads/2021/07/Black-Pixel-Mouse-Cursor-Arow-Fixed-e1625872880376.png'), default;
+  background-color: #fea5ce; 
+  /*background-image: url(https://maljoylove.com/wp-content/uploads/2021/07/pexels-tirachard-kumtanom-347143-scaled.jpg);
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  cursor: url('https://maljoylove.com/wp-content/uploads/2021/07/DevSiteCursor-e1627594774541.png'), default;
 }
 a, a:hover {
-  cursor: url('https://maljoylove.com/wp-content/uploads/2021/07/Black-Pixel-Mouse-Cursor-Arow-Fixed-e1625872880376.png'), default;
+  cursor: url('https://maljoylove.com/wp-content/uploads/2021/07/DevSiteCursor-e1627594774541.png'), default;
 }
 
 #wraplife {
@@ -80,9 +85,6 @@ header {
 }
 
 
-.socials a{
-  font-size: 22px;
-}
   
 
 /*Makes the Main Content look pretty*/
@@ -141,6 +143,10 @@ header {
 
 .myname {
   margin-top: 50%;
+}
+
+.socials a{
+  font-size: 25px;
 }
 
 hr {
