@@ -9918,6 +9918,20 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
+@media screen and (max-width: 992px){
+    #sideNav {
+        background-color: #971be6 !important;
+        color: #fff;
+    }
+    #sideNav .navbar-nav .nav-item .nav-link {
+        color: #fff !important;
+        font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+        
+    }
+    .nav-link:hover {
+        opacity: 0.5;
+    }
+}
 @media (min-width: 1200px) {
   .float-xl-start {
     float: left !important;
@@ -11328,7 +11342,7 @@ p.lead {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
   color: rgb(151,27,230);
-  font-family: 'ff-prater-block-web', sans-serif !important;
+  font-family: 'ff-prater-block-web', sans-serif;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
