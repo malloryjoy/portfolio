@@ -332,6 +332,24 @@ th {
   border-width: 0;
 }
 
+.projbutton {
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #971be6;
+  background-color: #971be6;
+  color: #fff;
+  text-decoration: none;
+}
+
+.projbutton:hover {
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #971be6;
+  background-color: #fff;
+  color: #971be6;
+  text-decoration: underline;
+}
+
 label {
   display: inline-block;
 }
@@ -7963,6 +7981,10 @@ textarea.form-control-lg {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.language-icons {
+  color: #971be6;
 }
 
 @media (min-width: 576px) {
