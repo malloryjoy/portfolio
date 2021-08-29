@@ -1,3 +1,6 @@
 [submodule "sitcomsoulmates"]
 	path = sitcomsoulmates
 	url = https://github.com/malloryjoy/datingapp
+[submodule "myBod"]
+	path = myBod
+	url = https://github.com/malloryjoy/myBod.git
