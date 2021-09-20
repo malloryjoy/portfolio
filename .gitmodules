@@ -4,3 +4,6 @@
 [submodule "myBod"]
 	path = myBod
 	url = https://github.com/malloryjoy/myBod.git
+[submodule "myGoals"]
+	path = myGoals
+	url = https://github.com/malloryjoy/myGoals.git
