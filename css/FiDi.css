@@ -56,7 +56,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: "Times", serif; 
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -87,12 +87,13 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: #fff !important;
+  background: linear-gradient(90deg, #fff 80%, #000 20%);
+  
 }
 
 hr {
   margin: 1rem 0;
-  color: #971be6;
+  color: #000;
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
@@ -106,18 +107,18 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   /*font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
-  font-family: 'ff-prater-block-web', sans-serif;
+  font-family: 'Didot', sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #971be6;
-}
+  color: #000;
+} 
 
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
@@ -159,6 +160,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  margin-right: 25%;
 }
 
 abbr[title],
@@ -239,11 +241,11 @@ sup {
 }
 
 a {
-  color:#971be6;
+  color:#000;
   text-decoration: underline;
 }
 a:hover, .social-icon:hover {
-    color: rgba(151, 27, 230, 0.2);
+    color: rgba(0, 0, 0, 0.2);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -334,21 +336,22 @@ th {
 }
 
 .projbutton {
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 10px;
-  border: 2px solid #971be6;
-  background-color: #971be6;
+  border: 2px solid #000;
+  background-color: #000;
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .projbutton:hover {
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 10px;
-  border: 2px solid #971be6;
+  border: 3px solid #000;
   background-color: #fff;
-  color: #971be6;
-  text-decoration: underline;
+  color: #000;
+  text-decoration: none;
 }
 
 label {
@@ -663,47 +666,47 @@ progress {
 }
 
 #togglebox {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  margin-right: 5%;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-right: 5%;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 #togglebox p{
-  margin-top: 0;
-    margin-bottom: 1rem;
-    margin-right: 0% !important;
-}
+    margin-top: 0;
+      margin-bottom: 1rem;
+      margin-right: 0% !important;
+  }
 
-#FiDi, #Elle, #Millis {
-  display: none;
-}
+#Elle, #Millis, #defaultimage {
+    display: none;
+  }
 
 #defaultsheet {
-  background-color: #fff;
-  color: rgba(151,27,229, 0.7);
-  font-family: 'ff-prater-block-web', sans-serif;
+    background-color: #fff;
+    color: rgba(151,27,229, 0.7);
+    font-family: 'ff-prater-block-web', sans-serif;
 }
 
 #ellesheet {
-  background-color: #dd3b6d;
-  color: #fff;
-  font-family:'Impact', serif;
+    background-color: #dd3b6d;
+    color: #fff;
+    font-family:'Impact', serif;
 
 }
 
 #fidisheet {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Times New Roman', serif;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
 }
 
 #millissheet {
-  background-color: #037156;
-  color: #fbd513;
+    background-color: #037156;
+    color: #fbd513;
 }
 
 @media (min-width: 576px) {
@@ -711,6 +714,32 @@ progress {
     max-width: 540px;
   }
 }
+
+@media (max-width: 666px){
+    body{
+        background: linear-gradient(90deg, #fff 90%, #000 10%);
+    }
+}
+
+@media (max-width: 598px){
+    body{
+        background: linear-gradient(90deg, #fff 92%, #000 8%);
+    }
+    .subheading a{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 486px){
+    body{
+        background: #fff;
+        border-right: 30px solid black;
+    }
+    .subheading a{
+        font-size: 1.2rem;
+    }
+}
+
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
@@ -4013,7 +4042,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  background-color: rgba(151,27,230, 0.2);
+  background-color: rgba(211,202,207, 0.2);
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -7771,7 +7800,8 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  /*color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
+  color: #000;
 }
 
 .text-secondary {
@@ -8029,7 +8059,7 @@ textarea.form-control-lg {
 }
 
 .language-icons {
-  color: #971be6;
+  color: #000;
 }
 
 @media (min-width: 576px) {
@@ -9987,20 +10017,20 @@ textarea.form-control-lg {
 }
 @media screen and (max-width: 992px){
     #sideNav {
-        background-color: #971be6 !important;
+        background-color: #000 !important;
         color: #fff;
     }
     #sideNav .navbar-nav .nav-item .nav-link {
         color: #fff !important;
-        font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+        font-family: "Times", serif;
         
     }
     .nav-link:hover {
         opacity: 0.5;
     }
     #togglebox{
-      margin-top: 12px;
-  }
+        margin-top: 12px;
+    }
 }
 @media (min-width: 1200px) {
   .float-xl-start {
@@ -11397,7 +11427,7 @@ p.lead {
 }
 
 .subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Times", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
@@ -11411,8 +11441,8 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  color: rgb(151,27,230);
-  font-family: 'ff-prater-block-web', sans-serif;
+  color: rgb(0,0,0);
+  font-family: 'Didot', sans-serif;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
@@ -11439,7 +11469,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(151,27,230, 0.2);
+    border: 0.5rem solid rgba(152,154,170, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11448,6 +11478,15 @@ p.lead {
     width: 100%;
     margin-bottom: auto;
   }
+    #defaultimage {
+        z-index: 1;
+        display: none;
+    }
+
+    #FiDi {
+        z-index: 2;
+    }
+
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%;
@@ -11465,7 +11504,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #971be6;
+  background-color: #000;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -11475,7 +11514,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: rgba(151, 27, 230, 0.65);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .dev-icons {

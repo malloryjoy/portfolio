@@ -10,17 +10,26 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="./css/bootstrap_styles.css" rel="stylesheet" type="text/css"/>
+        <link href="./css/bootstrap_styles.css" rel="stylesheet" id="stylin" type="text/css">
+        <script src="./styleswap.js"></script>
+
     </head>
     <body id="page-top">
+        <aside id="togglebox">
+            <p>Choose Your Style: <button id="defaultsheet" onclick="swapStyleSheet('./css/bootstrap_styles.css');">Default</button> <button id="ellesheet" onclick="swapStyleSheet('./css/elle.css');">Elle</button> <button id="fidisheet" onclick="swapStyleSheet('./css/FiDi.css');">FiDi</button><button id="millissheet" onclick="swapStyleSheet('./css/millis.css');">Millis</button></p>
+        </aside>
+       
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Mallory Joy</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://maljoylove.com/wp-content/uploads/2021/08/Bowie.png" alt="bowie_logo" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="defaultimage" src="https://maljoylove.com/wp-content/uploads/2021/08/Bowie.png" alt="bowie_logo" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="FiDi" src="https://maljoylove.com/wp-content/uploads/2021/08/FiDi.png" alt="fidi_logo" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="Elle" src="https://maljoylove.com/wp-content/uploads/2021/08/Elle.png" alt="elle_logo" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="Millis" src="https://maljoylove.com/wp-content/uploads/2021/08/Converse.png" alt="millis_logo" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -34,6 +43,7 @@
                 </ul>
             </div>
         </nav>
+
         <!-- Page Content-->
         <div class="container-fluid p-0">
             <!-- About-->

@@ -87,7 +87,6 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: #fff !important;
 }
 
 hr {
@@ -664,46 +663,16 @@ progress {
 
 #togglebox {
   background-color: rgba(0, 0, 0, 0.8);
+  width: 45%;
+  float: right;
   color: #fff;
   margin-right: 5%;
   padding: 5px;
-  position: absolute;
-  right: 0;
-  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  
 }
 
-#togglebox p{
-  margin-top: 0;
-    margin-bottom: 1rem;
-    margin-right: 0% !important;
-}
-
-#FiDi, #Elle, #Millis {
+#FiDi, #Elle, #bennett {
   display: none;
-}
-
-#defaultsheet {
-  background-color: #fff;
-  color: rgba(151,27,229, 0.7);
-  font-family: 'ff-prater-block-web', sans-serif;
-}
-
-#ellesheet {
-  background-color: #dd3b6d;
-  color: #fff;
-  font-family:'Impact', serif;
-
-}
-
-#fidisheet {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Times New Roman', serif;
-}
-
-#millissheet {
-  background-color: #037156;
-  color: #fbd513;
 }
 
 @media (min-width: 576px) {
@@ -9998,9 +9967,6 @@ textarea.form-control-lg {
     .nav-link:hover {
         opacity: 0.5;
     }
-    #togglebox{
-      margin-top: 12px;
-  }
 }
 @media (min-width: 1200px) {
   .float-xl-start {
