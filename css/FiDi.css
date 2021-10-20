@@ -10030,7 +10030,16 @@ textarea.form-control-lg {
     }
     #togglebox{
         margin-top: 12px;
+        width: 100%;
+        /*padding-left: 10%;*/
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 0;
     }
+    .portfolio-section {
+        padding-top: 7rem !important;
+    }
+
 }
 @media (min-width: 1200px) {
   .float-xl-start {
