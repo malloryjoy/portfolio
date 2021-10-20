@@ -10000,6 +10000,18 @@ textarea.form-control-lg {
     #togglebox{
         margin-top: 12px;
     }
+
+    .portfolio-section {
+        padding-top: 7rem !important;
+    }
+    #togglebox{
+        margin-top: 12px;
+        width: 100%;
+        
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 0;
+    }
 }
 @media (min-width: 1200px) {
   .float-xl-start {
