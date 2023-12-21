@@ -340,9 +340,9 @@ input, textarea, label {
 /*******TABLET CSS *******/
 @media screen and (max-width: 1023px) {
  
-  header {
+  /*header {
   
-  }
+  }*/
 
   /*nav {
     display:none;
@@ -484,5 +484,5 @@ input, textarea, label {
     font-size: 16px;
     margin: 12px;
   } */
-}
+
 /*# sourceMappingURL=main.css.map */
