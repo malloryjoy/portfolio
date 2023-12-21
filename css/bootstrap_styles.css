@@ -11379,6 +11379,10 @@ body {
   color: #6c757d;
 }
 
+#bim{
+  height:20px;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -11527,6 +11531,6 @@ section.portfolio-section .portfolio-section-content {
 }
 @media screen and (max-width: 600px)  {
 .projbutton{
-  font-size: 12px;
+  font-size: 14px;
 }
 }
