@@ -11519,3 +11519,8 @@ section.portfolio-section .portfolio-section-content {
     padding-bottom: 5rem;
   }
 }
+@media screen and (max-width: 600px)  {
+  .projbutton{
+    font-size: 12px;
+  }
+}

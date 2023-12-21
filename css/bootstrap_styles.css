@@ -10008,10 +10008,10 @@ textarea.form-control-lg {
   }
   }
   .portfolio-section {
-    padding-top: 7rem !important;
+    padding-top: 3rem !important;
 } 
   
-}
+
 @media (min-width: 1200px) {
   .float-xl-start {
     float: left !important;
@@ -11523,8 +11523,10 @@ section.portfolio-section .portfolio-section-content {
 
 @media screen and (min-width: 600px)  {
   .mobile-break { display: none; }
-  .projbutton{
-    font-size: 12px;
-  }
   
+}
+@media screen and (max-width: 600px)  {
+.projbutton{
+  font-size: 12px;
+}
 }
