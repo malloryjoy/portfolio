@@ -11506,6 +11506,10 @@ section.portfolio-section .portfolio-section-content {
   width: 100%;
 }
 
+#bim{
+  height:20px;
+}
+
 @media (min-width: 768px) {
   section.portfolio-section {
     min-height: 100vh;
