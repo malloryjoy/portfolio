@@ -10008,10 +10008,10 @@ textarea.form-control-lg {
   }
   }
   .portfolio-section {
-    padding-top: 7rem !important;
+    padding-top: 3rem !important;
 } 
   
-}
+
 @media (min-width: 1200px) {
   .float-xl-start {
     float: left !important;
