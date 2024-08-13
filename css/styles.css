@@ -178,7 +178,7 @@ h1{
 
 
 #smo{
-   margin-left:5em;
+   margin-left:3em;
 }
 
 
@@ -430,6 +430,12 @@ footer a{
    display:none !important;
 }
 
+
+#uc li{
+   color: #000;
+   margin: 0 25%;
+   font-size: 1.13em;
+}
 
 /*MOBILE LAYOUT - TABLET*/
 @media only screen and (max-width: 1230px){
