@@ -1,260 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Mallory Joy Development</title>
-        <link rel="icon" type="image/x-icon" href="https://maljoylove.com/wp-content/uploads/2021/08/Bowie.png" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="./css/bootstrap_styles.css" rel="stylesheet" id="stylin" type="text/css">
-        <script src="./styleswap.js"></script>
+   <head>
+       <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+       <meta name="description" content="" />
+       <meta name="author" content="" />
+       <title>Mallory Joy Development</title>
+       <link rel="icon" type="image/x-icon" href="https://maljoylove.com/wp-content/uploads/2021/08/Bowie.png" />
+      
+       <!-- Google fonts-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mogra&family=Vidaloka&display=swap" rel="stylesheet">
+       <!-- Font Awesome icons (free version)-->
+      
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="./css/styles.css" rel="stylesheet" id="stylin" type="text/css">
+      
 
-    </head>
-    <body id="page-top">
-        <aside id="togglebox">
-            <p>Choose Your Style: <br class="mobile-break"><button id="defaultsheet" onclick="swapStyleSheet('./css/bootstrap_styles.css');">Default</button> <button id="ellesheet" onclick="swapStyleSheet('./css/elle.css');">Elle</button> <button id="fidisheet" onclick="swapStyleSheet('./css/FiDi.css');">FiDi</button><button id="millissheet" onclick="swapStyleSheet('./css/millis.css');">Millis</button></p>
-        </aside>
-       
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Mallory Joy</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="defaultimage" src="https://maljoylove.com/wp-content/uploads/2021/08/Bowie.png" alt="bowie_logo" /></span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="FiDi" src="https://maljoylove.com/wp-content/uploads/2021/08/FiDi.png" alt="fidi_logo" /></span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="Elle" src="https://maljoylove.com/wp-content/uploads/2021/08/Elle.png" alt="elle_logo" /></span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="Millis" src="https://maljoylove.com/wp-content/uploads/2021/08/Converse.png" alt="millis_logo" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#websites">Websites Built</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#coding">Coding Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#writing">UX Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Personal Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Get In Touch</a></li> 
-                </ul>
-            </div>
-        </nav>
 
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="portfolio-section" id="about">
-                <div class="portfolio-section-content">
-                    <h1 class="mb-0">
-                        Mallory
-                        <span class="text-primary">Joy</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        <a href="tel:5617970215">(561) 797-0215 · </a> 
-                        <a href="mailto:malloryjoy13@gmail.com">malloryjoy13@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">I am a front-end developer with a passion for writing! Hire me for all your WordPress or UX needs.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/malloryjoy/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" target="_blank" href="https://github.com/malloryjoy"><i class="fab fa-github"></i></a>
-                        <!--a class="social-icon" href="#!"><i class="fab fa-instagram"></i></a-->
-                        <a class="social-icon"  target="_blank" href="https://maljoylove.com/"><i class="fab fa-wordpress"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Websites-->
-            <section class="portfolio-section" id="websites">
-                <div class="portfolio-section-content">
-                    <h2 class="mb-5">Websites I've Built</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">NBC SPORTS NEXT</h3>
-                            <p>&nbsp;</p>
-                                <a aria-label="Providence Golf Club" target="_blank" class="projbutton" href="https://www.providencegolfclub.com">Providence Golf Club </a><span style="padding-left: 10px"></span><a aria-label="Seaview Golf" class="projbutton" href="https://www.seaviewgolf.com/" target="_blank">Seaview Golf </a> <span style="padding-left: 10px"></span> 
-                                <br class="mobile-break"><div id="bim"></div><a aria-label="Indian River Preserve" class="projbutton" href="https://www.indianriverpreservegolfclub.com" target="_blank">Indian River Preserve  </a> <span style="padding-left: 10px"></span> <a aria-label="Southern Woods Golf" class="projbutton" href="https://www.southernwoodsgc.com" target="_blank">Southern Woods Golf</a>  
-                                <br class="mobile-break"><div id="bim"></div><a aria-label="GolfNow Template Library" class="projbutton" href="https://golf.nbcsportsnext.com/template-library/" target="_blank">NBC Sports Next Template Library</a>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Coding-->
-            <section class="portfolio-section" id="coding">
-                <div class="portfolio-section-content">
-                    <h2 class="mb-5">Coding Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Sitcom Soulmates</h3>
-                            <div class="subheading mb-3">Uses HTML, CSS, and Javascript</div>
-                            <p>Looking for love? This personality quiz will tell you just where to find it.... on your favorite streaming platform. Looking for a best friend? This quiz does that, too!</p>
-                        <a class="projbutton" target="_blank" href="/sitcomsoulmates">Launch Project</a> <a class="projbutton" href="https://github.com/malloryjoy/datingapp">View GitHub</a>
-                        </div>
+   </head>
+  
+   <body>
+     
+       <section id="welcome">
+           <nav id="topNav">
+               <ul class="siteNav">
+                   <li class="navItem"><a href="#welcome">Home</a> </li>
+                   <li class="navItem"><a href="#aboutme">About</a> </li>
+                   <li class="navItem"><a href="#expertise">Projects</a> </li>
+                   <li class="navItem"><a href="#resume">Resume</a> </li>
+                   <li class="navItem"><a href="#contact">Contact</a> </li>
+                   <li class="navItem"><a href="#contact">UX Portfolio</a> </li>
 
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">myBod</h3>
-                            <div class="subheading mb-3">Uses HTML, CSS, and Python </div>
-                            <p>Inspired by the 75Hard Challenge, this random generator will tell you how you'll work out today. Get ready, get set, go get 'em! </p>
-                            <a class="projbutton" href="/myBod">Launch Project</a> <a class="projbutton" href="https://github.com/malloryjoy/myBod">View GitHub</a>
+
+               </ul>
+          
+           </nav>
+           <nav id="socialNav">
+               <ul id="socialLinks">
+                   <li class="socialitem"><a href="https://www.linkedin.com/in/malloryjoy/" aria-label="linkedin (opens in new tab)" alt="linkedin (opens in new tab)" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.87 28.87" id="linkedin"><g><g><rect width="28.87" height="28.87" fill="#0b86ca" rx="6.48" ry="6.48"></rect><path fill="#fff" d="M8 12h3v9.68H8zm1.53-4.81a1.74 1.74 0 11-1.74 1.75 1.74 1.74 0 011.74-1.75M12.92 12h2.89v1.32a3.16 3.16 0 012.85-1.56c3 0 3.61 2 3.61 4.61v5.31h-3V17c0-1.12 0-2.57-1.56-2.57s-1.8 1.22-1.8 2.48v4.79h-3z"></path></g></g></svg></a></li>
+                   <li class="socialitem"><a href="https://github.com/malloryjoy" aria-label="Github (opens in new tab)" alt="Github (opens in new tab)" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="github"><path d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"></path></svg></a></li>
+                   <li class="socialitem"><a href="https://www.linkedin.com/in/malloryjoy/" aria-label="Figma (opens in new tab)" alt="Figma (opens in new tab)" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="figma"><path fill="#0ACF83" d="M8 24c2.208 0 4-1.792 4-4v-4H8c-2.208 0-4 1.792-4 4s1.792 4 4 4z"></path><path fill="#A259FF" d="M4 12c0-2.208 1.792-4 4-4h4v8H8c-2.208 0-4-1.792-4-4z"></path><path fill="#F24E1E" d="M4 4c0-2.208 1.792-4 4-4h4v8H8C5.792 8 4 6.208 4 4z"></path><path fill="#FF7262" d="M12 0h4c2.208 0 4 1.792 4 4s-1.792 4-4 4h-4V0z"></path><path fill="#1ABCFE" d="M20 12c0 2.208-1.792 4-4 4s-4-1.792-4-4 1.792-4 4-4 4 1.792 4 4z"></path></svg></a></li>
+                   <li class="socialitem"><a href="https://www.instagram.com/mallory.script" aria-label="Instagram (opens in new tab)" alt="Instagram (opens in new tab)" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2476 2476" id="Instagram"><path d="M825.4 1238c0-227.9 184.7-412.7 412.6-412.7 227.9 0 412.7 184.8 412.7 412.7 0 227.9-184.8 412.7-412.7 412.7-227.9 0-412.6-184.8-412.6-412.7m-223.1 0c0 351.1 284.6 635.7 635.7 635.7s635.7-284.6 635.7-635.7-284.6-635.7-635.7-635.7S602.3 886.9 602.3 1238m1148-660.9c0 82 66.5 148.6 148.6 148.6 82 0 148.6-66.6 148.6-148.6s-66.5-148.5-148.6-148.5-148.6 66.5-148.6 148.5M737.8 2245.7c-120.7-5.5-186.3-25.6-229.9-42.6-57.8-22.5-99-49.3-142.4-92.6-43.3-43.3-70.2-84.5-92.6-142.3-17-43.6-37.1-109.2-42.6-229.9-6-130.5-7.2-169.7-7.2-500.3s1.3-369.7 7.2-500.3c5.5-120.7 25.7-186.2 42.6-229.9 22.5-57.8 49.3-99 92.6-142.4 43.3-43.3 84.5-70.2 142.4-92.6 43.6-17 109.2-37.1 229.9-42.6 130.5-6 169.7-7.2 500.2-7.2 330.6 0 369.7 1.3 500.3 7.2 120.7 5.5 186.2 25.7 229.9 42.6 57.8 22.4 99 49.3 142.4 92.6 43.3 43.3 70.1 84.6 92.6 142.4 17 43.6 37.1 109.2 42.6 229.9 6 130.6 7.2 169.7 7.2 500.3 0 330.5-1.2 369.7-7.2 500.3-5.5 120.7-25.7 186.3-42.6 229.9-22.5 57.8-49.3 99-92.6 142.3-43.3 43.3-84.6 70.1-142.4 92.6-43.6 17-109.2 37.1-229.9 42.6-130.5 6-169.7 7.2-500.3 7.2-330.5 0-369.7-1.2-500.2-7.2M727.6 7.5c-131.8 6-221.8 26.9-300.5 57.5-81.4 31.6-150.4 74-219.3 142.8C139 276.6 96.6 345.6 65 427.1 34.4 505.8 13.5 595.8 7.5 727.6 1.4 859.6 0 901.8 0 1238s1.4 378.4 7.5 510.4c6 131.8 26.9 221.8 57.5 300.5 31.6 81.4 73.9 150.5 142.8 219.3 68.8 68.8 137.8 111.1 219.3 142.8 78.8 30.6 168.7 51.5 300.5 57.5 132.1 6 174.2 7.5 510.4 7.5 336.3 0 378.4-1.4 510.4-7.5 131.8-6 221.8-26.9 300.5-57.5 81.4-31.7 150.4-74 219.3-142.8 68.8-68.8 111.1-137.9 142.8-219.3 30.6-78.7 51.6-168.7 57.5-300.5 6-132.1 7.4-174.2 7.4-510.4s-1.4-378.4-7.4-510.4c-6-131.8-26.9-221.8-57.5-300.5-31.7-81.4-74-150.4-142.8-219.3C2199.4 139 2130.3 96.6 2049 65c-78.8-30.6-168.8-51.6-300.5-57.5-132-6-174.2-7.5-510.4-7.5-336.3 0-378.4 1.4-510.5 7.5" fill="#fd00dc" class="color000000 svgShape"></path></svg></a></li>
+               </ul>
+           </nav>
+           <div id="hd-lspcmn"></div>
+           <div aria-labelledby="Mallory Joy">
+           <h1>MALLORY JOY</h1>
+           <p style="text-align:center; font-size: 1em; margin-top:-2em; line-height:1.5;">EST. 1994</p>
+           <h2 class="laic">FEARLESS AMBITION. <span id="smo">FLAWLESS WORK.</span></h2>
+           <h2 class="tllom">FEARLESS AMBITION. <br /> FLAWLESS WORK.</h2>
+           <div id="stlm"><p style="text-align: center;"><a aria-label="Scroll down to about me section" href="#aboutme"><i class="fa-solid fa-chevron-down"></i></a></p></div>
+       </div>
+       </section>
+       <section id="aboutme" role="main">
+          
+           <div id="myface">
+           <img class="circle" id="defaultimage" src="https://media.licdn.com/dms/image/C4E03AQGw2dnWEa_XDQ/profile-displayphoto-shrink_200_200/0/1517432764982?e=1726099200&v=beta&t=RyzoxoxlW3aVSVaAwa8p3xNSPwxKYRCjfwSKe89141M" width="300" height="300" alt="Mallory Joy face" />
+           </div>
+           <div role="region" id="mystory" aria-label="about me">
+           <h2 class="sectionheader" aria-label="Hi! I'm Mallory.">Hi! I'm Mallory.</h2>
+           <p>I am a full stack developer based out of the east coast of the United States. The beginning of my career can be traced
+               back to my early teens, as every 'cool kid' started creating profiles on Myspace. I would rapid fire choose theme after theme
+               for my <em>own</em> profile, while sitting in awe at the people who knew how to manipulate the HTML and CSS of a theme to make
+               it their own. As the social media industry boomed, so did my interest in web design and software engineering.
+           </p>
+           <p>Outside of the world wide web, I like movies (horror!), music (indie!), and traveling (everywhere!). As you read this, I am probably scribbling away in a journal,
+               reading a book, or playing piano. Ask me about my favorite sitcom, and tell me yours!
+           </p>
+           <p>In short, I love a good story, and a great adventure. Ready to leave the Shire?</p>
+           </div><div style="clear: both;"></div>
+          
+       </section>
+       <section id="expertise" role="region" aria-label="Areas of Expertise">
+           <h2>Areas of Expertise</h2>
+           <div id="myskills">
+               <div id="col1">
+                   <ul>
+                       <li>Web Design</li>
+                       <li>Technical Documentation</li>
+                       <li>Copywriting for Web</li>
+                       <li style="display:none">Software Engineering</li>
+                   </ul>
+               </div>
+               <div id="col2">
+                   <ul>
+                       <li>Wordpress Development</li>
+                       <li>UX Design</li>
+                       <li>Copywriting for Social Media</li>
+                       <li style="display:none;">Artificial Intelligence (AI)</li>
+                   </ul>
+               </div>
+           </div>
+
+
+
+
+       </section>
+       <section id="projects" role="region" aria-label="Sample Work">
+           <h2>Sample Work</h2>
+           <div id="row1" style="display:none;">
+               <table class="one-third">
+                   <tbody>
+                       <tr><th>UX Design</th></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/woocommerce" target="_blank" aria-label="WooCommerce Store Mockup (opens in a new tab)">WooCommerce Store Mockup</a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/goodreads" target="_blank" aria-label="Goodreads - A Case Study (opens in a new tab)">Goodreads - A Case Study </a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/rundisney" target="_blank" aria-label="RunDisney - A Case Study (opens in a new tab)">RunDisney - A Case Study</a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/paddys" target="_blank" aria-label="Paddy's Pub - A Case Study (opens in a new tab)">Paddy's Pub - A Case Study </a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/adhd" target="_blank" aria-label="ADHD Journal Mockup (opens in a new tab)">ADHD Journal Mockup</a></tr>
+                   </tbody>
+                
+               </table>
+
+
+               <table class="the-middle">
+                   <tbody>
+                   <tr><th>Wordpress Templates</th></tr>
+                   <tr><td><a href="https://www.figma.com/proto/zIK1zLdpK11pJd4Ai7c9E0/WORDPRESS-DESIGNS?node-id=232-6188&t=x8bsyFclMBq4PSKv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=99%3A514" target="_blank" aria-label="Ode Template (opens in a new tab)">Ode</a></td></tr>
+                   <tr><td><a href="https://www.strider.malloryjoy.dev/" target="_blank" aria-label="Strider Template (opens in a new tab)">Strider</a></td></tr>
+                   <tr><td><a href="https://www.aurora.malloryjoy.dev/" target="_blank" aria-label="Aurora Template (opens in a new tab)">Aurora</a></td></tr>
+                   <tr><td><a href="https://www.amity.malloryjoy.dev/" target="_blank" aria-label="Amity Template (opens in a new tab)">Amity</a></td></tr>
+                   <tr><td><a href="https://www.royale.malloryjoy.dev/" target="_blank" aria-label="Royale Template (opens in a new tab)">Royale</a></td></tr>
+                   </tbody>   
+               </table>
+
+
+                 <table class="one-third">
+                   <tbody>
+                       <tr><th>Programming Languages</th></tr>
+                       <tr><td><a href="https://www.malloryjoy.dev/mash" target="_blank" aria-label="Javascript - M.A.S.H (opens in a new tab)">Javascript - M.A.S.H</a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/charcuterie" target="_blank" aria-label="Java - Build a Charcuterie Board (opens in a new tab)">Java - Build a Charcuterie Board </a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/workoutgenerator" target="_blank" aria-label="Python - Workout Generator (opens in a new tab)">Python - Workout Generator</a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/style" target="_blank" aria-label="C++ - Style (opens in a new tab)">C++ - Style </a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/reading" target="_blank" aria-label="SQL - Rory's Reading Challenge (opens in a new tab)">SQL - Rory's Reading Challenge</a></td></tr>
+                   </tbody>
+               </table> 
+           </div>
+           <div id="row2">
+               <table class="col1">
+                   <tbody>
+                       <tr><th>Wordpress Websites</th></tr>
+                       <tr><td><a href="https://www.providence-golf.com/" target="_blank" aria-label="Providence Golf Club (opens in a new tab)">Providence Golf Club</a></td></tr>
+                       <tr><td><a href="https://www.seaviewgolf.com/" target="_blank" aria-label="Seaview Golf Club (opens in a new tab)">Seaview Golf Club</a></td></tr>
+                       <tr><td><a href="https://www.citrusnational.com/" target="_blank" aria-label="Citrus National Golf Club (opens in a new tab)">Citrus National Golf Club</a></td></tr>
+                       <tr><td><a href="https://sunshineclosetdesigns.com/" target="_blank" aria-label="Sunshine Closet Designs (opens in a new tab)">Sunshine Closet Designs</a></td></tr>
+                       <tr><td><a href="https://golf.nbcsportsnext.com/template-library/" target="_blank" aria-label="NBC Sports Next Template Library (opens in a new tab)">NBC Sports Next Template Library</a></td></tr>
+                   </tbody>
+                  
+               </table>
+
+
+               <table class="col2">
+                   <tbody>
+                       <tr><th>Technical Documentation</th></tr>
+                       <tr><td><a href="/OnlineStoreSetup.pdf" target="_blank" aria-label="Getting started with WooCommerce (opens in a new tab)">Online Store Setup</a></td></tr>
+                       <tr><td><a href="/BasicBuildProcess.pdf" target="_blank" aria-label="Website Build Basics (opens in a new tab)">Website Build Basics</a></td></tr>
+                       <tr><td><a href="/SunstoneWalkthrough.pdf" target="_blank" aria-label="Sunstone Build Process (opens in a new tab)">Sunstone Build Process</a></td></tr>
+                       <tr><td><a href="/AspenWalkthrough.pdf" target="_blank" aria-label="Fairway Build Process (opens in a new tab)">Aspen Build Process</a></td></tr>
+                       <tr><td><a href="/accessingyourwebsite.pdf" target="_blank" aria-label="Accessing Your Website (opens in a new tab)">Accessing Your Website</a></td></tr>
+                       </tbody>
+               </table>
+               <!--div id="hmotbs">
+               <table>
+                   <tbody>
+                       <tr><th>Artificial Intelligence</th></tr>
+                       <tr><td><a href="https://www.malloryjoy.dev/onesheetwonder" target="_blank" aria-label="One Sheet Wonder (opens in a new tab)">One Sheet Wonder</a></td></tr>
+                       <tr><td><a href="https://www.ux.malloryjoy.dev/charcuterie" target="_blank" aria-label="New Romantics (opens in a new tab)">New Romantics</a></td></tr>
+                   </tbody>
+                   </table>
+           </div-->
+       </div>
+           <div id="row3" style="display:none;">
+               <table class="1col">
+               <tbody>
+                   <tr><th>Artificial Intelligence</th></tr>
+                   <tr><td><a href="https://www.malloryjoy.dev/onesheetwonder" target="_blank" aria-label="One Sheet Wonder (opens in a new tab)">One Sheet Wonder</a></td></tr>
+                   <tr><td><a href="https://www.ux.malloryjoy.dev/charcuterie" target="_blank" aria-label="New Romantics (opens in a new tab)">New Romantics</a></td></tr>
+               </tbody>
+               </table>
+           </div>
+          
+
+
+       </section>
+       <section id="resume" role="region" aria-label="my resume">
+           <h2>My Resume</h2>
+           <div id="bagms"></div>
+           <p style="text-align: center; font-size: 1.5em; line-height:1.5;"><a aria-label="Download Here" class="button" href="resume.pdf">Download Here</a></p>
+           <div id="bagms"></div>
+       </section>
+       <section id="contact" role="region" aria-label="Get in Touch">
+           <h2>Get in Touch</h2>
+           <div id="bagms"></div>
+           <p style="text-align:center; font-size: 1.5em; line-height:1.5;"><a aria-label="Email Me" class="button" href="mailto:malloryjoy13@gmail.com">Email Me</a></p>
+
+
+       </section>
+
+
+       <footer role="contentinfo">
+          
+           <p style="line-height:1.5;">Copyright 2024 Mallory Joy. All Rights Reserved.</p>
+          
+               <p style="line-height:1.5">ICONS: <a href="https://iconscout.com/icons/linkedin" class="text-underline font-size-sm" target="_blank">Linkedin</a> by <a href="https://iconscout.com/contributors/stonehub" class="text-underline font-size-sm">Stone Hub</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> |
+                 
+                   <a href="https://iconscout.com/icons/github" class="text-underline font-size-sm" target="_blank">Github</a> by <a href="https://iconscout.com/contributors/pixel-icons" class="text-underline font-size-sm">Pixel Icons</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> |
+                   <a href="https://iconscout.com/icons/figma" class="text-underline font-size-sm" target="_blank">Figma</a> by <a href="https://iconscout.com/contributors/icon-54" class="text-underline font-size-sm" target="_blank">Icon 54</a> |
+                   <a href="https://iconscout.com/icons/instagram" class="text-underline font-size-sm" target="_blank">Instagram</a> by <a href="https://iconscout.com/contributors/icon-mafia" class="text-underline font-size-sm" target="_blank">Icon Mafia</a>
+
+
+               </p>
+         
+       </footer>
+ 
+
+
+  
+
+
+
+
+  
+   </body>
+ 
+       <!--aside id="togglebox">
+           <p>Choose Your Style: <br class="mobile-break"><button id="defaultsheet" onclick="swapStyleSheet('./css/bootstrap_styles.css');">Default</button> <button id="ellesheet" onclick="swapStyleSheet('./css/elle.css');">Elle</button> <button id="fidisheet" onclick="swapStyleSheet('./css/FiDi.css');">FiDi</button><button id="millissheet" onclick="swapStyleSheet('./css/millis.css');">Millis</button></p>
+       </aside-->
+     
+       <!-- Navigation-->
+       <!--nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+           <a class="navbar-brand js-scroll-trigger" href="#page-top">
+               <span class="d-block d-lg-none">Mallory Joy</span>
+               <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="defaultimage" src="https://maljoylove.com/wp-content/uploads/2021/08/Bowie.png" alt="bowie_logo" /></span>
+               <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="FiDi" src="https://maljoylove.com/wp-content/uploads/2021/08/FiDi.png" alt="fidi_logo" /></span>
+               <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="Elle" src="https://maljoylove.com/wp-content/uploads/2021/08/Elle.png" alt="elle_logo" /></span>
+               <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="Millis" src="https://maljoylove.com/wp-content/uploads/2021/08/Converse.png" alt="millis_logo" /></span>
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+           <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav">
+                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Ego Sum, Quia Sumus</a></li>
+                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#websites">Websites Built</a></li>
+                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#coding">Coding Portfolio</a></li>
+                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#writing">UX Portfolio</a></li>
+                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Personal Interests</a></li>
+                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Get In Touch</a></li>
+               </ul>
+           </div>
+       </nav-->
+
+
+       <!-- Page Content-->
+       <!--div class="container-fluid p-0">
+           <!-- About-->
+           <!--section class="portfolio-section" id="about">
+               <div class="portfolio-section-content">
+                   <h1 class="mb-0">
+                       Mallory
+                       <span class="text-primary">Joy</span>
+                   </h1>
+                   <div class="subheading mb-5">
+                       <a href="tel:5617970215">(561) 797-0215 · </a>
+                       <a href="mailto:malloryjoy13@gmail.com">malloryjoy13@gmail.com</a>
+                   </div>
+                   <p class="lead mb-5">I am a front-end developer with a passion for writing! Hire me for all your WordPress or UX needs.</p>
+                   <div class="social-icons">
+                       <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/malloryjoy/"><i class="fab fa-linkedin-in"></i></a>
+                       <a class="social-icon" target="_blank" href="https://github.com/malloryjoy"><i class="fab fa-github"></i></a>
+                       <!--a class="social-icon" href="#!"><i class="fab fa-instagram"></i></a-->
+                       <!--a class="social-icon"  target="_blank" href="https://maljoylove.com/"><i class="fab fa-wordpress"></i></a>
+                   </div>
+               </div>
+           </section>
+           <hr class="m-0" />
+           <!-- Websites-->
+           <!--section class="portfolio-section" id="websites">
+               <div class="portfolio-section-content">
+                   <h2 class="mb-5">Websites I've Built</h2>
+                   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">NBC SPORTS NEXT</h3>
+                           <p>&nbsp;</p>
+                               <a aria-label="Providence Golf Club" target="_blank" class="projbutton" href="https://www.providencegolfclub.com">Providence Golf Club </a><span style="padding-left: 10px"></span><a aria-label="Seaview Golf" class="projbutton" href="https://www.seaviewgolf.com/" target="_blank">Seaview Golf </a> <span style="padding-left: 10px"></span>
+                               <br class="mobile-break"><div id="bim"></div><a aria-label="Indian River Preserve" class="projbutton" href="https://www.indianriverpreservegolfclub.com" target="_blank">Indian River Preserve  </a> <span style="padding-left: 10px"></span> <a aria-label="Southern Woods Golf" class="projbutton" href="https://www.southernwoodsgc.com" target="_blank">Southern Woods Golf</a> 
+                               <br class="mobile-break"><div id="bim"></div><a aria-label="GolfNow Template Library" class="projbutton" href="https://golf.nbcsportsnext.com/template-library/" target="_blank">NBC Sports Next Template Library</a>
+                          
+                       </div>
+                   </div>
+               </div>
+           </section>
+           <hr class="m-0" />
+           <!-- Coding-->
+           <!--section class="portfolio-section" id="coding">
+               <div class="portfolio-section-content">
+                   <h2 class="mb-5">Coding Projects</h2>
+                   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">Sitcom Soulmates</h3>
+                           <div class="subheading mb-3">Uses HTML, CSS, and Javascript</div>
+                           <p>Looking for love? This personality quiz will tell you just where to find it.... on your favorite streaming platform. Looking for a best friend? This quiz does that, too!</p>
+                       <a class="projbutton" target="_blank" href="/sitcomsoulmates">Launch Project</a> <a class="projbutton" href="https://github.com/malloryjoy/datingapp">View GitHub</a>
+                       </div>
+
+
+                   </div>
+                   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">myBod</h3>
+                           <div class="subheading mb-3">Uses HTML, CSS, and Python </div>
+                           <p>Inspired by the 75Hard Challenge, this random generator will tell you how you'll work out today. Get ready, get set, go get 'em! </p>
+                           <a class="projbutton" href="/myBod">Launch Project</a> <a class="projbutton" href="https://github.com/malloryjoy/myBod">View GitHub</a>
+                       </div>
+                   </div>
+                   <!--div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">Style Assistant</h3>
+                           <div class="subheading mb-3">Uses HTML, CSS, and React.js</div>
+                           <p>Have you ever watched a TV show and wished you could dress like one of the characters? This style guide will get you on the
+                               right track for your next wardrobe update!</p>
+                               <a class="projbutton" href="#">Launch Project</a> <a class="projbutton" href="#">View ReadMe</a> <a class="projbutton" href="#">View GitHub</a>
+                       </div>
+                   </div>
+                   <div class="d-flex flex-column flex-md-row justify-content-between">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">You've Never Seen It?</h3>
+                           <div class="subheading mb-3">Uses HTML, CSS, and SQL</div>
+                           <p>Every year, critics and film enthusiasts across the globe collaborate on a list of what films of the year deserve a place on
+                               the list of "1001 Movies to See Before You Die." Wondering if your favorite movie made the cut as "essential"?
+                               Search for it here!</p>
+                           <a class="projbutton" href="#">Launch Project</a> <a class="projbutton" href="#">View ReadMe</a> <a class="projbutton" href="#">View GitHub</a>
                         </div>
-                    </div>
-                    <!--div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Style Assistant</h3>
-                            <div class="subheading mb-3">Uses HTML, CSS, and React.js</div>
-                            <p>Have you ever watched a TV show and wished you could dress like one of the characters? This style guide will get you on the 
-                                right track for your next wardrobe update!</p>
-                                <a class="projbutton" href="#">Launch Project</a> <a class="projbutton" href="#">View ReadMe</a> <a class="projbutton" href="#">View GitHub</a>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">You've Never Seen It?</h3>
-                            <div class="subheading mb-3">Uses HTML, CSS, and SQL</div>
-                            <p>Every year, critics and film enthusiasts across the globe collaborate on a list of what films of the year deserve a place on 
-                                the list of "1001 Movies to See Before You Die." Wondering if your favorite movie made the cut as "essential"? 
-                                Search for it here!</p>
-                            <a class="projbutton" href="#">Launch Project</a> <a class="projbutton" href="#">View ReadMe</a> <a class="projbutton" href="#">View GitHub</a>
-                         </div>
-                    </div-->
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Writing-->
-            <section class="portfolio-section" id="writing">
-                <div class="portfolio-section-content">
-                    <h2 class="mb-5">UX Writing</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">User Interface Copy</h3>   
-                            <div><a href="https://www.ridgefieldgc.com/" target="_blank">Sample Website 1 </a> | <a href="https://www.mesquitegc.com/" target="_blank">Sample Website 2</a></div>   
-                        </div> 
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Direct and Transactional Emails</h3>
-                            <div><a href="/introductory-woocommerce-email.pdf">Getting Started with WooCommerce</a> | <a href="/website-launch-email.pdf">Accessing Your Wordpress Website</a></div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Internal Documentation</h3>
-                            <div><a href="mailto:malloryjoy13@gmail.com">Available Upon Request</a></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="portfolio-section" id="skills">
-                <div class="portfolio-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons language-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"></li><i class="fa-brands fa-figma"></i>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <!--li class="list-inline-item"><i class="fab fa-react"></i></li-->
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Related</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            E-Commerce
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Adobe Photoshop
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            SEO
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Salesforce
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            AWS
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="portfolio-section" id="interests">
-                <div class="portfolio-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>If my coding projects weren't a giveaway, I love movies and television! I'm a sitcom addict, and I'll watch any horror movie you 
-                        put on for me. Away from a screen, I love to bake and play piano. I also love to rock climb, ice skate, and read! Above all, writing 
-                        is my true passion. I keep a biweekly blog and am currently working on a speculative script for Black Mirror-- along with several other stories in mind! </p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Contact-->
-            <section class="portfolio-section" id="contact">
-                <div class="portfolio-section-content">
-                    <h2 class="mb-5">Get in Touch</h2>
-                    <div data-tf-widget="X9GeVPZB" style="width:100%;height:400px;color:#FFFFFF;"></div><script src="//embed.typeform.com/next/embed.js"></script>
-                    <!--ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul-->
-                </div>
-            </section>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
-</html>
+                   </div-->
+               <!--/div>
+           </section>
+           <!--hr class="m-0" />
+           <!-- Writing-->
+           <!--section class="portfolio-section" id="writing">
+               <div class="portfolio-section-content">
+                   <h2 class="mb-5">UX Writing</h2>
+                   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">User Interface Copy</h3>  
+                           <div><a href="https://www.ridgefieldgc.com/" target="_blank">Sample Website 1 </a> | <a href="https://www.mesquitegc.com/" target="_blank">Sample Website 2</a></div>  
+                       </div>
+                   </div>
+                   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">Direct and Transactional Emails</h3>
+                           <div><a href="/introductory-woocommerce-email.pdf">Getting Started with WooCommerce</a> | <a href="/website-launch-email.pdf">Accessing Your Wordpress Website</a></div>
+                       </div>
+                   </div>
+                   <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                       <div class="flex-grow-1">
+                           <h3 class="mb-0">Internal Documentation</h3>
+                           <div><a href="mailto:malloryjoy13@gmail.com">Available Upon Request</a></div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+           <hr class="m-0" />
+           <!-- Skills-->
+           <!--section class="portfolio-section" id="skills">
+               <div class="portfolio-section-content">
+                   <h2 class="mb-5">Skills</h2>
+                   <div class="subheading mb-3">Programming Languages & Tools</div>
+                   <ul class="list-inline dev-icons language-icons">
+                       <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                       <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                       <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                       <li class="list-inline-item"></li><i class="fa-brands fa-figma"></i>
+                       <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                       <!--li class="list-inline-item"><i class="fab fa-react"></i></li-->
+                       <!--li class="list-inline-item"><i class="fab fa-python"></i></li>
+                       <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                   </ul>
+                   <div class="subheading mb-3">Related</div>
+                   <ul class="fa-ul mb-0">
+                       <li>
+                           <span class="fa-li"><i class="fas fa-check"></i></span>
+                           E-Commerce
+                       </li>
+                       <li>
+                           <span class="fa-li"><i class="fas fa-check"></i></span>
+                           Adobe Photoshop
+                       </li>
+                       <li>
+                           <span class="fa-li"><i class="fas fa-check"></i></span>
+                           SEO
+                       </li>
+                       <li>
+                           <span class="fa-li"><i class="fas fa-check"></i></span>
+                           Salesforce
+                       </li>
+                       <li>
+                           <span class="fa-li"><i class="fas fa-check"></i></span>
+                           AWS
+                       </li>
+                   </ul>
+               </div>
+           </section>
+           <hr class="m-0" />
+           <!-- Interests-->
+           <!--section class="portfolio-section" id="interests">
+               <div class="portfolio-section-content">
+                   <h2 class="mb-5">Interests</h2>
+                   <p>If my coding projects weren't a giveaway, I love movies and television! I'm a sitcom addict, and I'll watch any horror movie you
+                       put on for me. Away from a screen, I love to bake and play piano. I also love to rock climb, ice skate, and read! Above all, writing
+                       is my true passion. I keep a biweekly blog and am currently working on a speculative script for Black Mirror-- along with several other stories in mind! </p>
+               </div>
+           </section>
+           <hr class="m-0" />
+           <!-- Contact-->
+           <!--section class="portfolio-section" id="contact">
+               <div class="portfolio-section-content">
+                   <h2 class="mb-5">Get in Touch</h2>
+                   <div data-tf-widget="X9GeVPZB" style="width:100%;height:400px;color:#FFFFFF;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                  
+               </div>
+           </section>
+       </div-->
+       <!--footer>
+           <p>Copyright 2024 Mallory Joy. All Rights Reserved.</p>
+       </footer>
+    
+   </body>
+</html-->
+
+
+
