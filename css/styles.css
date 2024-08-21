@@ -262,6 +262,7 @@ th{
    color: #fff;
    font-size: 24px;
    text-shadow: 1px 1px 1px rgba(0,0,0,29%);
+   height: 3em;
 }
 td{
    font-family:"Inter", sans serif;
@@ -392,6 +393,7 @@ footer{
    height: 10vh;
    text-align: center;
    padding-top: 4em;
+   padding-bottom: 2em;
 }
 
 
@@ -546,6 +548,7 @@ footer a{
    }
    .ham-menu.active span {
       background-color: black;
+      position:fixed;
    }
    .ham-menu.active span:nth-child(1) {
       top: 10%;
@@ -601,6 +604,14 @@ footer a{
    }
 
 
+}
+
+@media only screen and (max-width: 750px) {
+   table {
+      
+         width: 200px;
+     
+   }
 }
 
 
