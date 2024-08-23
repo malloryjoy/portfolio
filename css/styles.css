@@ -182,13 +182,52 @@ p,li{
    font-size: 32px !important;
   
 }
-#aboutme{
-   padding:10% 10% 10% 25%;
-}
+
 .circle{
    border-radius: 50% !important;
 }
-#myface{
+
+#aboutme{
+   padding:10% 10% 10% 25%;
+   
+}
+
+/*#aboutme, #myface, #mystory p{
+   display: flex !important;
+   flex-direction:row;
+}
+
+#mystory h2{
+   display: flex;
+   flex-direction: row;
+   
+}
+
+#mystory p {
+   font-size: 1em;
+   line-height: 1.5;
+   flex-wrap: wrap;
+} */
+
+#myface {
+   float: left;
+    margin-right: 2em;
+}
+
+
+#mystory p {
+   font-size: 1em;
+   line-height: 1.5;
+}
+
+
+
+
+#defaultimage{
+   width:13em;
+   height:13em;
+}
+/*#myface{
    width:35%;
    float:left;
    display: flex;
@@ -202,7 +241,7 @@ p,li{
    float:right;
    margin-top:-2em;
   
-}
+}*/
 #mystory p{
    font-size: 16px;
 }
@@ -580,6 +619,9 @@ footer a{
    }
 
 
+   
+
+
    #myskills {
        padding: 0 8em;
    }
@@ -632,6 +674,7 @@ footer a{
 
    #thisgroup{
       margin-top: 0;
+      display:block;
    }
    
 
