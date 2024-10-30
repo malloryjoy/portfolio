@@ -606,6 +606,10 @@ footer a{
       background-image: linear-gradient(to right, #FFE66D 50%, #fbcaef 50%);
    }
 
+   #ux-mobileNav{
+      background-image: #000;
+   }
+
 
    .off-screen-menu {
       background-color:  rgb(251,202,238);
@@ -649,6 +653,20 @@ footer a{
       transform: translate(-50%, -50%);
       transition: .3s ease;
    }
+
+   .ux-ham-menu span {
+      height: 3px;
+      width: 5%;
+      background-color: #fff;
+      border-radius: 25px;
+      position: absolute;
+      left: 50%;
+      top: 50%; 
+      transform: translate(-50%, -50%);
+      transition: .3s ease;
+   }
+
+
    .ham-menu span:nth-child(1) {
       top: 5%;
    }
@@ -661,6 +679,11 @@ footer a{
    }
    .ham-menu.active span {
       background-color: black;
+      position:fixed;
+   }
+
+   .ux-ham-menu.active span {
+      background-color: #fff;
       position:fixed;
    }
    .ham-menu.active span:nth-child(1) {
