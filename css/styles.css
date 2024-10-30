@@ -400,6 +400,7 @@ td a:hover{
    color: #fff;
    text-decoration:none;
    border: 1px solid #BE0E92;
+   
 }
 
 
@@ -438,6 +439,8 @@ footer a{
 }
 
 
+
+
 #uc li{
    color: #000;
    margin: 0 25%;
@@ -447,6 +450,86 @@ footer a{
 #thisgroup{
    display:none;
 }
+
+/****************************** UX PORTFOLIO SPECIFIC ******************************/
+
+#project{
+   border: .25em solid #000;
+   margin: 10% 20%;
+   display:flex;
+   align-items: center;
+   padding-top: .5em;
+   padding-right: 1em;
+}
+
+#uximage{
+   width: 13em;
+   height: 14em;
+}
+
+#casestudytitle {
+   text-align: left !important;
+}
+
+.portfoliotext{
+   margin-left: 1em;
+}
+
+.portfoliotext p{
+   font-size: 1.25em;
+}
+
+#uxfooter{
+   background-color: #000;
+   color: #fff;
+   padding-top:4em;
+   padding-bottom: 2em;
+}
+
+#uxfooter a{
+   color: #fff;
+}
+
+
+/****************************** CASE STUDY ******************************/
+
+#casestudy{
+   margin: 10% 15%;
+
+}
+
+#casestudy h1{
+   font-family: "Vidaloka", serif !important;
+   font-weight:400;
+   text-align: left;
+   font-size: 3em;
+   text-shadow: none;
+}
+
+#casestudy h3{
+   text-align: left;
+   font-size: 2em;
+}
+
+#casestudy p{
+   text-align: left;
+   font-size: 1.25em;
+}
+
+#casestudy li {
+   color: #000;
+}
+
+#photosection{
+   background-image: linear-gradient(72deg, #b8b8b8 0%, #ececec 35%);
+   width: 100%;
+   height: 60vh;
+}
+
+#portfoliobreak{
+   height: 5vh;
+}
+
 
 /*MOBILE LAYOUT - TABLET*/
 @media only screen and (max-width: 1230px){
@@ -645,6 +728,14 @@ footer a{
          width: 200px;
      
    }
+   .button{
+      display: block !important;
+      white-space: nowrap !important;
+      }
+
+   #project{
+      margin: 10% 5% !important;
+   }
 }
 
 
@@ -727,6 +818,16 @@ footer a{
    margin-left: 1em;
    margin-top: 1em;
 }
+
+#project{
+   border: .25em solid #000;
+   margin: 10% 20%;
+   padding-right: .5em;
+   display:flex;
+   align-items: center;
+   padding-top: .5em;
+}
+
 
 
 }
