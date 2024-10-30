@@ -603,7 +603,7 @@ footer a{
    }
 
    #mobileNav{
-      background-image: linear-gradient(to right, #FFE66D 50%, #fbcaef 50%);
+      background-color: #000;
    }
 
   
@@ -643,7 +643,7 @@ footer a{
    .ham-menu span {
       height: 3px;
       width: 5%;
-      background-color: #000;
+      background-color: #fff;
       border-radius: 25px;
       position: absolute;
       left: 50%;
@@ -666,7 +666,7 @@ footer a{
       top: 7%;
    }
    .ham-menu.active span {
-      background-color: black;
+      background-color: white;
       position:fixed;
    }
 
@@ -763,7 +763,7 @@ footer a{
    }
 
    .ham-menu.active span {
-      background-color: black;
+      background-color: white;
       
       position: fixed !important;
   }
